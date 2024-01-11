@@ -18,7 +18,7 @@ set -e
 stash_result=$(git stash --keep-index)
 
 # Run flake8 linting
-flake8 zipline tests > logs/error_logs.txt
+flake8 zipline tests >> logs/error_logs.txt
 # Run unit tests
 nosetests -x > logs/error_logs.txt
 
