@@ -78,7 +78,7 @@ class DataFrameFFCLoader(FFCLoader):
             )
         else:
             # Ensure that columns are in the correct order.
-            adjustments = adjustments.reindex_axis(ADJUSTMENT_COLUMNS, axis=1)
+            adjustments = adjustments.reindex(ADJUSTMENT_COLUMNS, axis=1)
             adjustments.sort(['apply_date', 'sid'], inplace=True)
 
         self.adjustments = adjustments
