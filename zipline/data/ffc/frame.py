@@ -6,6 +6,7 @@ from numpy import (
     zeros,
 )
 from pandas import (
+    DataFrame as pd,
     DataFrame,
     DatetimeIndex,
     Index,
