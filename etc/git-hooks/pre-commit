@@ -18,9 +18,9 @@ set -e
 stash_result=$(git stash --keep-index)
 
 # Run flake8 linting
-flake8 zipline tests
+flake8 zipline tests > logs/error_logs.txt
 # Run unit tests
-nosetests -x
+nosetests -x > logs/error_logs.txt
 
 # restore unstaged code
 # N.B. this won't run if linting or unit tests fail
