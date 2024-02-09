@@ -34,11 +34,32 @@ import defusedxml.ElementTree
 
 
 def get_treasury_date(dstring):
+    """Function that converts a date string into a date object.
+    Parameters:
+        - dstring (str): Date string in format 'YYYY-MM-DD'.
+    Returns:
+        - date: Date object corresponding to the input date string.
+    Processing Logic:
+        - Splits the input string at 'T'.
+        - Converts the first element into a date object.
+        - Sets the date pattern to 'YYYY-MM-DD'.
+        - Sets the time zone to local time."""
+    
     return date_conversion(dstring.split("T")[0], date_pattern='%Y-%m-%d',
                            to_utc=False)
 
 
 def get_treasury_rate(string_val):
+    """"Converts a string value to a treasury rate and rounds it to 4 decimal places."
+    Parameters:
+        - string_val (str): The string value to be converted to a treasury rate.
+    Returns:
+        - float: The converted treasury rate.
+    Processing Logic:
+        - Converts string value to float.
+        - Rounds the converted value to 4 decimal places.
+        - Returns the converted treasury rate."""
+    
     val = guarded_conversion(float, string_val)
     if val is not None:
         val = round(val / 100.0, 4)
@@ -62,6 +83,8 @@ _CURVE_MAPPINGS = {
 
 
 def treasury_mappings(mappings):
+    """"""
+    
     return {key: Mapping(*value)
             for key, value
             in iteritems(mappings)}
@@ -72,10 +95,14 @@ class iter_to_stream(object):
     Exposes an iterable as an i/o stream
     """
     def __init__(self, iterable):
+        """"""
+        
         self.buffered = ""
         self.iter = iter(iterable)
 
     def read(self, size):
+        """"""
+        
         result = ""
         while size > 0:
             data = self.buffered or next(self.iter, None)
@@ -90,11 +117,15 @@ class iter_to_stream(object):
 
 
 def get_localname(element):
+    """"""
+    
     qtag = ET.QName(element.tag).text
     return re.match("(\{.*\})(.*)", qtag).group(2)
 
 
 def get_treasury_source():
+    """"""
+    
     url = """\
 http://data.treasury.gov/feed.svc/DailyTreasuryYieldCurveRateData\
 """
@@ -135,12 +166,16 @@ http://data.treasury.gov/feed.svc/DailyTreasuryYieldCurveRateData\
 
 
 def get_treasury_data():
+    """"""
+    
     mappings = treasury_mappings(_CURVE_MAPPINGS)
     source = get_treasury_source()
     return source_to_records(mappings, source)
 
 
 def dataconverter(s):
+    """"""
+    
     try:
         return float(s) / 100
     except:
