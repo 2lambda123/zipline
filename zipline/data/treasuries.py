@@ -30,6 +30,7 @@ from . loader_utils import (
     date_conversion,
     source_to_records
 )
+import defusedxml.ElementTree
 
 
 def get_treasury_date(dstring):
@@ -100,7 +101,7 @@ http://data.treasury.gov/feed.svc/DailyTreasuryYieldCurveRateData\
     res = requests.get(url, stream=True)
     stream = iter_to_stream(res.text.splitlines())
 
-    elements = ET.iterparse(stream, ('end', 'start-ns', 'end-ns'))
+    elements = defusedxml.ElementTree.iterparse(stream, ('end', 'start-ns', 'end-ns'))
 
     namespaces = OrderedDict()
     properties_xpath = ['']
