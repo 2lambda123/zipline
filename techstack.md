@@ -3,23 +3,23 @@
 ## Tech Stack
 2lambda123/zipline is built on the following main stack:
 
-- [Vagrant](http://www.vagrantup.com/) – Virtual Machine Management
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [Python](https://www.python.org) – Languages
-- [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
-- [Markdown](http://daringfireball.net/projects/markdown/) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Sphinx](http://sphinxsearch.com/) – Search Engines
-- [NumPy](http://www.numpy.org/) – Data Science Tools
 - [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
+- [Markdown](http://daringfireball.net/projects/markdown/) – Languages
+- [Python](https://www.python.org) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
 - [Matplotlib](http://matplotlib.org) – Charting Libraries
-- [SciPy](http://www.scipy.org) – Data Science Tools
-- [Jupyter](http://jupyter.org) – Data Science Notebooks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [flake8](https://github.com/PyCQA/flake8) – Code Review
-- [pip](https://pypi.org/project/pip/) – Front End Package Manager
+- [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Vagrant](http://www.vagrantup.com/) – Virtual Machine Management
+- [flake8](https://github.com/PyCQA/flake8) – Code Review
+- [pip](https://pypi.org/project/pip/) – Front End Package Manager
+- [Jupyter](http://jupyter.org) – Data Science Notebooks
+- [NumPy](http://www.numpy.org/) – Data Science Tools
+- [SciPy](http://www.scipy.org) – Data Science Tools
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Sphinx](http://sphinxsearch.com/) – Search Engines
 
 Full tech stack [here](/techstack.md)
 
@@ -29,23 +29,23 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/zipline is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/768/150px-Vagrant.png' alt='Vagrant'/> [Vagrant](http://www.vagrantup.com/) – Virtual Machine Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1002/tornado.png' alt='Tornado'/> [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1147/markdown.png' alt='Markdown'/> [Markdown](http://daringfireball.net/projects/markdown/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1598/TtqoAo1V.png' alt='Sphinx'/> [Sphinx](http://sphinxsearch.com/) – Search Engines
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1147/markdown.png' alt='Markdown'/> [Markdown](http://daringfireball.net/projects/markdown/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png' alt='flake8'/> [flake8](https://github.com/PyCQA/flake8) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg' alt='pip'/> [pip](https://pypi.org/project/pip/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/1002/tornado.png' alt='Tornado'/> [Tornado](http://www.tornadoweb.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/768/150px-Vagrant.png' alt='Vagrant'/> [Vagrant](http://www.vagrantup.com/) – Virtual Machine Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png' alt='flake8'/> [flake8](https://github.com/PyCQA/flake8) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg' alt='pip'/> [pip](https://pypi.org/project/pip/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/1598/TtqoAo1V.png' alt='Sphinx'/> [Sphinx](http://sphinxsearch.com/) – Search Engines
 
 Full tech stack [here](/techstack.md)
 
@@ -56,7 +56,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/zipline](https://github.com/2lambda123/zipline)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|58<br/>Tools used|01/09/24 <br/>Report generated|
+|58<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
